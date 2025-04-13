@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating form</title>
+</head>
+<body>
+    <form action="server">
+        Choose your option:
+        <select name="profession" id="profession">
+            <option >select your option</option>
+            <option value="stu">student</option>
+            <option value="dev">developer</option>
+        </select>
+        <br>
+        <div>
+            <label for="vol">select your volume</label>
+            <input type="range" id="vol" min="0" max="100" name="vol">
+        </div>
+        <br>
+        <label for="feedback">Please gives your valuable feedback : </label>
+        <textarea id="feedback" name="feedback" rows="8" cols="14"></textarea>
+        <button>submit</button>
+    </form>
+</body>
+</html>
