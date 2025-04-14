@@ -1,0 +1,28 @@
+h1 {
+    text-align: right;
+    /* border: solid; */
+    width: 50%;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: Arial;
+
+}
+h3 {
+    text-align: start;
+    font-family: impact;
+}
+
+p {
+    text-align: justify;
+    line-height: 2.0;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-decoration: double blue overline;
+    letter-spacing: 8px;
+}
