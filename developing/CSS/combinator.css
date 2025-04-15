@@ -1,0 +1,19 @@
+p + h3 {
+    text-decoration: underline;
+}
+
+.branch + button {
+    background-color: aqua;
+}
+
+div > input {
+    background-color: rgb(218, 189, 189);
+}
+
+input[type = "text"] {
+    color: green;
+}
+
+input[type = "password"] {
+    color: red;
+}
