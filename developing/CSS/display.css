@@ -1,0 +1,17 @@
+/* h2 {
+    display: inline;
+    background-color: palevioletred;
+}
+
+span {
+    display: block;
+    background-color: aquamarine;
+} */
+
+span {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}
