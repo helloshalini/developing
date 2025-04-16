@@ -1,0 +1,34 @@
+#yes {
+    color: blue;
+}
+
+* {
+    text-align: center;
+}
+
+h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* p {
+    color: white;
+    background-color: cornflowerblue;
+} */
+
+/* div button {
+    background-color: purple;
+    text-decoration: azure;
+} */
+
+button:hover{
+    background-color: yellow;
+    text-decoration: blue;
+}
+
+p:nth-last-of-type(2n+1) {
+    color: red;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+}
