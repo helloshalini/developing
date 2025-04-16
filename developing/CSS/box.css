@@ -1,0 +1,30 @@
+div {
+    height: 200px;
+    width: 500px;
+    background-color: antiquewhite;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(231, 66, 204);
+
+    border-left-color: green;
+    border-left-style: dotted;
+
+    border-radius: 10%;
+
+    padding-top: 30px;
+
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+h1 {
+    border: 2px dashed blue;
+}
+
+button {
+    border: 2px dashed rgb(213, 133, 12);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
