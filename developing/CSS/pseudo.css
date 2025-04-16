@@ -1,0 +1,21 @@
+button :hover {
+    color: wheat;
+    background-color: aqua;
+}
+
+button :active {
+    background-color: black;
+}
+
+input[type = "radio"]:checked + label {
+    color: red;
+    background-color: green;
+}
+
+.post :nth-of-type(2) {
+    background-color: antiquewhite;
+}
+
+h1 ::first-letter {
+    color: blueviolet;
+}
