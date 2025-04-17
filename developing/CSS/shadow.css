@@ -1,0 +1,10 @@
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: blue;
+    /* border: 2px solid black; */
+    margin: 10px auto;
+
+    box-shadow: 4px 5px 0 black;
+}
