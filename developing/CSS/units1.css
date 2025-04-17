@@ -1,0 +1,15 @@
+#outer {
+    height: 400px;
+    width: 470px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 20px;
+}
+
+#inner {
+    height: 200px;
+    width: 330px;
+    background-color: cornflowerblue;
+    font-size: 2em;
+    padding: 1em;
+}
