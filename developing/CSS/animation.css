@@ -1,0 +1,38 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name: fontAnimation; */
+    /* animation-name: colorAnimation; */
+    animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+@keyframes fontAnimation {
+    from {font-size: 20px;}
+    to {font-size: 40px;}
+}
+
+@keyframes colorAnimation {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+@keyframes widthAnimate {
+    from {
+        width: 10px;
+        background-color: green;
+    }
+    to {
+        width: 300px;
+        background-color: blue;
+    }
+}
