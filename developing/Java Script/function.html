@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JavaScript </title>
+</head>
+<body>
+    <h3> Function </h3>
+    <script>
+        function rollDice(){
+            let random = Math.floor(Math.random() * 6) + 1;
+            console.log(random);
+        }
+        // rollDice();
+
+        function calAvg(a,b,c){
+            let avg = (a+b+c)/3;
+            console.log(avg);
+        }
+        // calAvg(2,4,6);
+
+        function printTable(n) {
+            for(let i = n ; i<=n*10; i = i+n) {
+                console.log(i);
+            }
+        }
+        // printTable(4);
+
+        function get_sum(n) {
+            let sum = 0;
+            for(let i = 1; i<=n; i++) {
+                sum = sum+i;
+            }
+            return (sum);
+        }
+        get_sum(4);
+        console.log();
+
+    </script>
+</body>
+</html>
