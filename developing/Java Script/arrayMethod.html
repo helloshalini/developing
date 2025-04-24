@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h3>Array Methods</h3>
+
+    <script>
+
+        // let a =[1, 2, 3, 4, 5];
+
+        // arr.forEach((i) => {
+        //     console.log(i);
+        // });
+        // // OR
+        // arr.forEach(function (i) {
+        //     console.log(i);
+        // });
+
+        let num =[1, 2, 3, 4, 5];
+        let double = num.map((i) => {
+            return i*2;
+        });
+
+        let nums = [1,2,3,4,5,6,7,8,9, 10, 11];
+        let ans = nums.filter((el) => {
+            return el%2 == 0;
+        });
+
+        // Finding maximum element
+        let arr = [1,5,7,3,9,10,45,24,58,12,5];
+
+        let max = -1;
+        for(let i = 0 ; i<arr.length; i++) {
+            if(max < arr[i]) {
+                max = arr[i];
+            }
+        }
+        console.log(max);
+
+    </script>
+</body>
+</html>
