@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+
+<body>
+    <h1>This is heading </h1>
+    <h3> lets understand this concept </h3>
+    <p>This is para</p>
+    <button>Click here</button>
+
+    <script>
+        let btn = document.querySelector("button");
+        let p = document.querySelector("p");
+        let h1 = document.querySelector("h1");
+        let h3 = document.querySelector("h3");
+
+        function changeColor() {
+            console.dir(this.innerText);
+            this.style.backgroundColor = "blue";
+        }
+
+        btn.addEventListener("click", changeColor);
+        p.addEventListener("click", changeColor);
+        h1.addEventListener("click", changeColor);
+        h3.addEventListener("click", changeColor);
+    </script>
+</body>
+
+</html>
