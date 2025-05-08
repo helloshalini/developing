@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1> Hello Guys </h1>
+
+    <script>
+        function savetoBb(data, success, failure) {
+            let internetSpeed = Math.floor(Math.random() * 10) + 1;
+            if(internetSpeed > 4) {
+                success();
+            } else {
+               failure();
+            }
+        }
+
+        savetoBb(
+            "Hii... Nani",
+            () => {
+                console.log("success : Your data is saved ");
+                savetoBb (
+                    "Hello tanav",
+                    () => {
+                        console.log("success2 : data2 saved");
+                    },
+                    () => {
+                        console.log("failue2: weak connection");
+                    }
+                );
+            }, 
+            () => {
+                console.log("failure : data not saved");
+            }
+        );
+    </script>
+</body>
+</html>
