@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Hello Guys</h1>
+    <script>
+        async function greet() {
+            return "Hello";
+        }
+
+        greet()
+        .then( (result) => {
+            console.log("Promise was resolved");
+            console.log("result was : ", result);
+        })
+        .catch( (err) => {
+            console.log("Promise was rejected", err);
+        })
+
+        let hello = async() => {
+            "Hi..."
+        };
+    </script>
+</body>
+</html>
