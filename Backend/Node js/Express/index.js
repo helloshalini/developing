@@ -9,5 +9,10 @@ app.listen(port, () => {
 
 app.use((req, res) => {
     console.log("request recieve");
+    // res.send("this is a response");
+    res.send({
+        name: "apple",
+        color: "red",
+    });
 });
 
